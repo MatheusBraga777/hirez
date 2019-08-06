@@ -16,9 +16,9 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'Paladins',
-      url: '/servicos',
-      icon: 'servicos'
+      title: 'Paladins - Campeões',
+      url: '/Campeões',
+      icon: 'Campeões'
     }
   ];
 

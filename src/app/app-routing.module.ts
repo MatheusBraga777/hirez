@@ -12,8 +12,8 @@ const routes: Routes = [
     loadChildren: './home/home.module#HomePageModule'
   },
   {
-    path: 'servicos',
-    loadChildren: './servicos/servicos.module#servicosPageModule'
+    path: 'Campeões',
+    loadChildren: './Campeões/Campeões.module#CampeõesPageModule'
   },
   
 ];

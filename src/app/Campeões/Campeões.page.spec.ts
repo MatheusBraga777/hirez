@@ -1,23 +1,23 @@
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { ComponentFixture, TestBed, async } from '@angular/core/testing';
 
-import { servicosPage } from './servicos.page';
+import { CampeõesPage } from './Campeões.page';
 
-describe('servicosPage', () => {
-  let component: servicosPage;
-  let fixture: ComponentFixture<servicosPage>;
-  let servicosPage: HTMLElement;
+describe('CampeõesPage', () => {
+  let component: CampeõesPage;
+  let fixture: ComponentFixture<CampeõesPage>;
+  let CampeõesPage: HTMLElement;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ servicosPage ],
+      declarations: [ CampeõesPage ],
       schemas: [CUSTOM_ELEMENTS_SCHEMA],
     })
       .compileComponents();
   }));
 
   beforeEach(async () => {
-    fixture = await TestBed.createComponent(servicosPage);
+    fixture = await TestBed.createComponent();
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -27,8 +27,8 @@ describe('servicosPage', () => {
   });
 
   it('should have a list of 10 elements', () => {
-    servicosPage = fixture.nativeElement;
-    const items = servicosPage.querySelectorAll('ion-item');
+    CampeõesPage = fixture.nativeElement;
+    const items = CampeõesPage.querySelectorAll('ion-item');
     expect(items.length).toEqual(10);
   });
 
