@@ -23,8 +23,9 @@ export class AppComponent {
     {
       title: 'Smite - Classes',
       url: '/classes',
-      icon: 'classes'
+      icon: 'flash'
     }
+
   ];
 
   constructor(
