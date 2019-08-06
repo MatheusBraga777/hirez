@@ -19,6 +19,11 @@ export class AppComponent {
       title: 'Paladins - Campeões',
       url: '/Campeões',
       icon: 'Campeões'
+    },
+    {
+      title: 'Smite - Classes',
+      url: '/classes',
+      icon: 'classes'
     }
   ];
 

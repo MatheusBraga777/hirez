@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'Campeões',
     loadChildren: './Campeões/Campeões.module#CampeõesPageModule'
   },
+  {
+    path: 'classes',
+    loadChildren: './classes/classes.module#classesPageModule'
+  }
   
 ];
 
