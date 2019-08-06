@@ -18,6 +18,10 @@ const routes: Routes = [
   {
     path: 'classes',
     loadChildren: './classes/classes.module#classesPageModule'
+  },
+  {
+    path: 'Mago',
+    loadChildren: './Mago/Mago.module#MagoPageModule'
   }
   
 ];

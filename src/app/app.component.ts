@@ -25,6 +25,7 @@ export class AppComponent {
       url: '/classes',
       icon: 'flash'
     }
+
   ];
 
   constructor(
