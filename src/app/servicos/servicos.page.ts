@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-list',
-  templateUrl: 'list.page.html',
-  styleUrls: ['list.page.scss']
+  selector: 'app-servicos',
+  templateUrl: 'servicos.page.html',
+  styleUrls: ['servicos.page.scss']
 })
-export class ListPage implements OnInit {
+export class servicosPage implements OnInit {
   private selectedItem: any;
   private icons = [
     'flask',
@@ -21,10 +21,10 @@ export class ListPage implements OnInit {
   ];
   public items: Array<{ title: string; note: string; icon: string }> = [];
   constructor() {
-    for (let i = 1; i < 3; i++) {
+    for (let i = 1; i < 5; i++) {
       this.items.push({
-        title: 'Item ' + i,
-        note: 'This is item #' + i,
+        title: 'Serviços ' + i,
+        note: 'Serviços ' + i,
         icon: this.icons[Math.floor(Math.random() * this.icons.length)]
       });
     }
