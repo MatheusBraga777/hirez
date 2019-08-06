@@ -1,25 +1,25 @@
 -Dano
-Cassie	 A Filha do Caçador
-Tyra  	 A Indomável
-Drogoz	 O Ganancioso
-Lian  	 Herdeira da Casa Aico
+Cassie
+Tyra 
+Drogoz
+Lian
 //
 -Tank
-Makoa  	 O Ancião
-Inara 	 A Guardiã de Pedra
-Fernando O Auto-Proclamado Cavaleiro
-Khan 	 Primaz da Casa Aico
+Makoa
+Inara
+Fernando
+Khan
 //
 -Flanco
-Skye  	 A Assassina do Crepúsculo
-Evie 	 A Bruxa Invernal
-Androxus Matador de Deuses
-Maeve 	 Lâminas Mortais
-Zhin	 O tirano
+Skye
+Evie 
+Androxus
+Maeve
+Zhin
 //
 -Suporte
-Ying	 A FLOR
-Fúria 	 Anjo da Vingança
-IO 	 A Deusa Despedaçada
-Jenos 	 O Ascendido
-Pip 	 O Alquimista Trapaceiro
+Ying
+Fúria
+IO
+Jenos
+Pip
