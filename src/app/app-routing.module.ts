@@ -22,8 +22,10 @@ const routes: Routes = [
   {
     path: 'Mago',
     loadChildren: './Mago/Mago.module#MagoPageModule'
-  }
-  
+  },
+  {path: 'CampeõesResumo',
+  loadChildren: './CampeõesResumo/CampeõesResumo.module#CampeõesResumoPageModule'
+}
 ];
 
 @NgModule({
