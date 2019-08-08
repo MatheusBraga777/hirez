@@ -22,7 +22,24 @@ const routes: Routes = [
   {
     path: 'Mago',
     loadChildren: './Mago/Mago.module#MagoPageModule'
+  },
+  {
+    path: 'Assassino',
+    loadChildren: './Assassino/Assassino.module#AssassinoPageModule'
+  },
+  {
+    path: 'Guardião',
+    loadChildren: './Guardião/Guardião.module#GuardiãoPageModule'
+  },
+  {
+    path: 'Guerreiro',
+    loadChildren: './Guerreiro/Guerreiro.module#GuerreiroPageModule'
+  },
+  {
+    path: 'Cacador',
+    loadChildren: './Cacador/Cacador.module#CacadorPageModule'
   }
+
   
 ];
 
