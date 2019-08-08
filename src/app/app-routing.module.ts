@@ -38,10 +38,11 @@ const routes: Routes = [
   {
     path: 'Cacador',
     loadChildren: './Cacador/Cacador.module#CacadorPageModule'
-  }
-
-  
+  },
+  {path: 'CampeõesResumo',
+  loadChildren: './CampeõesResumo/CampeõesResumo.module#CampeõesResumoPageModule'},
 ];
+  
 
 @NgModule({
   imports: [

@@ -24,7 +24,12 @@ export class AppComponent {
       title: 'Smite - Classes',
       url: '/classes',
       icon: 'flash'
-    }
+    },
+    {
+      title: 'test html - Classes',
+      url: '/CampeõesResumo',
+      icon: 'Home'
+    },
 
   ];
 
