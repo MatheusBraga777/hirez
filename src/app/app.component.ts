@@ -13,18 +13,24 @@ export class AppComponent {
     {
       title: 'Home',
       url: '/home',
-      icon: 'home'
+      icon: 'Home'
     },
     {
       title: 'Paladins - Campeões',
       url: '/Campeões',
-      icon: 'Campeões'
+      icon: 'star-outline'
     },
     {
       title: 'Smite - Classes',
       url: '/classes',
-      icon: 'classes'
-    }
+      icon: 'flash'
+    },
+    {
+      title: 'test html - Classes',
+      url: '/CampeõesResumo',
+      icon: 'Home'
+    },
+
   ];
 
   constructor(
