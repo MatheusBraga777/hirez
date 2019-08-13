@@ -40,7 +40,52 @@ const routes: Routes = [
     loadChildren: './Cacador/Cacador.module#CacadorPageModule'
   },
   {path: 'CampeõesResumo',
-  loadChildren: './CampeõesResumo/CampeõesResumo.module#CampeõesResumoPageModule'},
+  loadChildren: './CampeõesResumo/CampeõesResumo.module#CampeõesResumoPageModule'
+},
+{
+  path: 'Chronos',
+  loadChildren: './Chronos/Chronos.module#ChronosPageModule'
+},
+{
+  path: 'Hades',
+  loadChildren: './Hades/Hades.module#HadesPageModule'
+},
+{
+  path: 'Poseidon',
+  loadChildren: './Poseidon/Poseidon.module#PoseidonPageModule'
+},
+{
+  path: 'Zeus',
+  loadChildren: './Zeus/Zeus.module#ZeusPageModule'
+},
+{
+  path: 'Arachne',
+  loadChildren: './Arachne/Arachne.module#ArachnePageModule'
+},
+{
+  path: 'Loki',
+  loadChildren: './Loki/Loki.module#LokiPageModule'
+},
+{
+  path: 'Fenrir',
+  loadChildren: './Fenrir/Fenrir.module#FenrirPageModule'
+},
+{
+  path: 'Thor',
+  loadChildren: './Thor/Thor.module#ThorPageModule'
+},
+{
+  path: 'Athena',
+  loadChildren: './Athena/Athena.module#AthenaPageModule'
+},
+{
+  path: 'Cerberus',
+  loadChildren: './Cerberus/Cerberus.module#CerberusPageModule'
+},
+{
+  path: 'Ganesha',
+  loadChildren: './Ganesha/Ganesha.module#GaneshaPageModule'
+},
 ];
   
 
