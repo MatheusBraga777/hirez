@@ -86,6 +86,19 @@ const routes: Routes = [
   path: 'Ganesha',
   loadChildren: './Ganesha/Ganesha.module#GaneshaPageModule'
 },
+{
+  path: 'Ymir',
+  loadChildren: './Ymir/Ymir.module#YmirPageModule'
+},
+{
+  path: 'Achilles',
+  loadChildren: './Achilles/Achilles.module#AchillesPageModule'
+},
+{
+  path: 'Bellona',
+  loadChildren: './Bellona/Bellona.module#BellonaPageModule'
+},
+
 ];
   
 
