@@ -8,11 +8,15 @@ ion-col{
     --inner-border-width: 0 0 0px 0;
     border-radius: 15px;
   }
-  h1, h3{
-    margin-left: 15px;
+  h1,{margin-left: 15px
+    ;
+  }
+  h2{
+  
   }
   h3{
     font-size: 12pt;
+    margin-left: 15px
   }
 
   h4{
@@ -26,8 +30,23 @@ ion-col{
     width: 3.9em;
   }
   ion-card-content{
-    height: 140px;
+    height: 115px;
   }
   .st{
     font-style: 20pt;
   }
+  
+
+
+  
+  img{
+    background-color: #0e222b;
+  }
+  .item-native{
+    padding: 0px;
+    margin-left: 100px;
+  }
+  ion-row{
+    background-color: #0e222b
+  }
+  
