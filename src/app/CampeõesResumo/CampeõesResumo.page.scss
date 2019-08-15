@@ -6,32 +6,41 @@ ion-col{
   
   ion-item{
     --inner-border-width: 0 0 0px 0;
-    border-radius: 15px;
+    width: 100
   }
-  h1,{margin-left: 15px
-    ;
+  h1{margin-left: 15px;
   }
-  h2{
-  
+  h2{margin-left: 10px;
+    text-align: left;
+    font-family: Montserrat,sans-serif;
+    color: white;
+    font-size: 40px;
   }
   h3{
     font-size: 12pt;
-    margin-left: 15px
+    margin-left: 10px
   }
 
   h4{
-    margin-left: auto;
-    margin-right: auto;
-    width: 5.3em;
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    color: white;
+    font-size: 20pt;
+
   }
-  h5{
-    margin-left: auto;
-    margin-right: auto;
-    width: 3.9em;
+  h5{margin-left: 10px;
+    text-align: left;
+    font-family: Montserrat,sans-serif;
+    color: white;
+   
   }
-  ion-card-content{
-    height: 115px;
+
+  h6{margin-left: 15px;
+    text-align: left;
+    font-family: Montserrat,sans-serif;
+    color: #547a8c;
   }
+  
   .st{
     font-style: 20pt;
   }
@@ -41,12 +50,42 @@ ion-col{
   
   img{
     background-color: #0e222b;
+    width: 110%;
   }
-  .item-native{
+  div.item-inner,.item-inner {
+    
     padding: 0px;
-    margin-left: 100px;
+    
   }
-  ion-row{
-    background-color: #0e222b
+  ion-grid{
+    background-color: #081519;
   }
   
+ion-slide{
+  background-color: #0e222b;
+  margin-right: 3px;
+  height: 445px;
+}
+ion-card{
+  height: 415px;
+}
+ion-card-title{
+  margin-top: 15px;
+  font-size: 12pt;
+  color: white;
+  font-family: Montserrat,sans-serif;
+  
+}
+ion-card-content{
+  padding-top: 0px;
+  color: white;
+  
+}
+#lg{
+  width: 20px;
+  background-color:#00000000;
+  color: #547a8c;
+}
+#BD{
+  border: 5px inset black;
+}
