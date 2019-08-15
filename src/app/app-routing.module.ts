@@ -98,6 +98,30 @@ const routes: Routes = [
   path: 'Bellona',
   loadChildren: './Bellona/Bellona.module#BellonaPageModule'
 },
+{
+  path: 'ReiArthur',
+  loadChildren: './ReiArthur/ReiArthur.module#ReiArthurPageModule'
+},
+{
+  path: 'Odin',
+  loadChildren: './Odin/Odin.module#OdinPageModule'
+},
+{
+  path: 'Apollo',
+  loadChildren: './Apollo/Apollo.module#ApolloPageModule'
+},
+{
+  path: 'Artemis',
+  loadChildren: './Artemis/Artemis.module#ArtemisPageModule'
+},
+{
+  path: 'Izanami',
+  loadChildren: './Izanami/Izanami.module#IzanamiPageModule'
+},
+{
+  path: 'Xbalanque',
+  loadChildren: './Xbalanque/Xbalanque.module#XbalanquePageModule'
+},
 
 ];
   
