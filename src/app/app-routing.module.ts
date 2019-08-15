@@ -39,8 +39,8 @@ const routes: Routes = [
     path: 'Cacador',
     loadChildren: './Cacador/Cacador.module#CacadorPageModule'
   },
-  {path: 'CampeõesResumo',
-  loadChildren: './CampeõesResumo/CampeõesResumo.module#CampeõesResumoPageModule'
+  {path: 'tyra',
+  loadChildren: './tyra/tyra.module#tyraPageModule'
 },
 {
   path: 'Chronos',

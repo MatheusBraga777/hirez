@@ -25,12 +25,7 @@ export class AppComponent {
       url: '/classes',
       icon: 'flash'
     },
-    {
-      title: 'test html - Classes',
-      url: '/CampeõesResumo',
-      icon: 'Home'
-    },
-
+    
   ];
 
   constructor(

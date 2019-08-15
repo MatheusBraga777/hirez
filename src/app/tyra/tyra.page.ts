@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-Campeões',
-  templateUrl: 'CampeõesResumo.page.html',
-  styleUrls: ['CampeõesResumo.page.scss']
+  templateUrl: 'tyra.page.html',
+  styleUrls: ['tyra.page.scss']
 })
-export class CampeõesResumoPage implements OnInit {
+export class tyraPage implements OnInit {
   private selectedItem: any;
   private icons = [
     'flask',
@@ -23,8 +23,8 @@ export class CampeõesResumoPage implements OnInit {
   constructor() {
     for (let i = 1; i < 5; i++) {
       this.items.push({
-        title: 'CampeõesResumo ' + i,
-        note: 'CampeõesResumo ' + i,
+        title: 'tyra ' + i,
+        note: 'tyra ' + i,
         icon: this.icons[Math.floor(Math.random() * this.icons.length)]
       });
     }

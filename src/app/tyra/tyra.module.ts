@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
 
-import { CampeõesResumoPage } from './CampeõesResumo.page';
+import { tyraPage } from './tyra.page';
 
 @NgModule({
   imports: [
@@ -14,10 +14,10 @@ import { CampeõesResumoPage } from './CampeõesResumo.page';
     RouterModule.forChild([
       {
         path: '',
-        component: CampeõesResumoPage
+        component: tyraPage
       }
     ])
   ],
-  declarations: [CampeõesResumoPage]
+  declarations: [tyraPage]
 })
-export class CampeõesResumoPageModule {}
+export class tyraPageModule {}

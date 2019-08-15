@@ -1,16 +1,16 @@
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { ComponentFixture, TestBed, async } from '@angular/core/testing';
 
-import { CampeõesResumoPage } from './CampeõesResumo.page';
+import { tyraPage } from './tyra.page';
 
-describe('CampeõesResumoPage', () => {
-  let component: CampeõesResumoPage;
-  let fixture: ComponentFixture<CampeõesResumoPage>;
+describe('tyraPage', () => {
+  let component: tyraPage;
+  let fixture: ComponentFixture<tyraPage>;
   let CampeõesPage: HTMLElement;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CampeõesPage ],
+      declarations: [ tyraPage ],
       schemas: [CUSTOM_ELEMENTS_SCHEMA],
     })
       .compileComponents();
