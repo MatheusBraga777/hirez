@@ -42,6 +42,24 @@ const routes: Routes = [
   {path: 'tyra',
   loadChildren: './tyra/tyra.module#tyraPageModule'
 },
+  {path: 'cassie',
+  loadChildren: './cassie/cassie.module#cassiePageModule'
+},
+{ path: 'drogoz',
+  loadChildren: './drogoz/drogoz.module#drogozPageModule'
+},
+{ path: 'lian',
+  loadChildren: './lian/lian.module#lianPageModule'
+},
+{ path: 'evie',
+  loadChildren: './evie/evie.module#eviePageModule'
+},
+{ path: 'maeve',
+  loadChildren: './maeve/maeve.module#maevePageModule'
+},
+{ path: 'skye',
+  loadChildren: './skye/skye.module#skyePageModule'
+},
 {
   path: 'Chronos',
   loadChildren: './Chronos/Chronos.module#ChronosPageModule'

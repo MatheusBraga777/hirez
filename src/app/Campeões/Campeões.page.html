@@ -1,61 +1,168 @@
 <ion-header>
-        <ion-toolbar>
-          <ion-buttons slot="start">
-            <ion-menu-button></ion-menu-button>
-          </ion-buttons>
-          <ion-title>
-            Classes
-          </ion-title>
-        </ion-toolbar>
-      </ion-header>
-    <ion-content >
-      <div class="tt">
-        <h4> Dano</h4>
-      </div>
-        <ion-grid>
-            <ion-row class="bg">
-              <ion-col align-self-center name="Tyra"  id="Tyra">
-                <ion-item routerLink="/tyra" routerDicetion="tyra">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Classes
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content >
+<div class="tt">
+  <h4> Dano</h4>
+</div>
+  <ion-grid>
+      <ion-row class="bg">
+        <ion-col align-self-center name="Tyra"  id="Tyra">
+          <ion-item routerLink="/tyra" routerDicetion="tyra">
+            <ion-thumbnail slot = "start">
+              <ion-img src="\assets\Paladins\Dano\Tyra\tyra.jpg" ionError="Tyra"> </ion-img></ion-thumbnail>
+              <h1>Tyra</h1>
+          </ion-item>
+          <h2>A Indomável</h2>
+          </ion-col>
+          
+          <ion-col align-self-center>
+            <ion-item  routerLink="/drogoz" routerDicetion="drogoz">
+                <ion-thumbnail slot = "start">
+
+                <ion-img src="\assets\Paladins\Dano\Drogoz\drogoz.jpg" ionError="Drogoz"> </ion-img></ion-thumbnail>
+                
+                <h1>Drogoz</h1>
+
+            </ion-item>
+            <h2>O Ganancioso</h2>
+            </ion-col>
+              
+      </ion-row>
+    </ion-grid>
+      
+    <ion-grid>
+        <ion-row>
+            <ion-col align-self-center>
+              <ion-item routerLink="/cassie" routerDicetion="cassie" >
                   <ion-thumbnail slot = "start">
-                    <ion-img src="\assets\Paladins\Dano\Tyra\tyra.jpg" ionError="Tyra"> </ion-img></ion-thumbnail>
-                    <h1>Tyra</h1>
+                  <ion-img src="\assets\Paladins\Dano\Cassie\cassie.jpg" ionError="Cassie"> </ion-img></ion-thumbnail>
+                  <h1>Cassie</h1>
+              </ion-item>
+              <h2>A Filha do Caçador</h2>
+              </ion-col>
+
+              <ion-col align-self-center>
+                <ion-item routerLink="/lian" routerDicetion="lian">
+                    <ion-thumbnail slot = "start">
+                    <ion-img src="\assets\Paladins\Dano\Lian\lian.jpg" ionError="Lian"> </ion-img></ion-thumbnail>
+                    <h1>Lian</h1>
                 </ion-item>
-                <h2>A Indomável</h2>
+                <h2>Herdeira da Casa Aico</h2>
+                </ion-col>
+               
+                  
+          
+        </ion-row>
+      </ion-grid>
+      <div class="tt">
+      <h4> Flanco</h4>
+      </div>
+      <ion-grid>
+
+        <ion-row>
+                <ion-col align-self-center>
+                  <ion-item routerLink="/evie" routerDicetion="evie">
+                      <ion-thumbnail slot = "start">
+                      <ion-img src="\assets\Paladins\Flanco\Evie\evie.jpg" ionError="Evie"> </ion-img></ion-thumbnail>
+                      <h1>Evie</h1>
+                  </ion-item>
+                  <h2>A Bruxa Invernal</h2>
+                  </ion-col>
+                  <ion-col align-self-center>
+                    <ion-item routerLink="/maeve" routerDicetion="maeve">
+                        <ion-thumbnail slot = "start">
+                        <ion-img src="\assets\Paladins\Flanco\Maeve\maeve.jpg"  ionError="Maeve"> </ion-img></ion-thumbnail>
+                        <h1 >Maeve </h1>
+                    </ion-item>
+                    <h2>Lâminas Mortais</h2>
+                    </ion-col>
+          
+        </ion-row>
+      </ion-grid>
+
+      <ion-grid>
+
+          <ion-row>
+           
+              
+                  <ion-col align-self-center>
+                    <ion-item routerLink="/skye" routerDicetion="skye">
+                        <ion-thumbnail slot = "start">
+                        <ion-img src="\assets\Paladins\Flanco\Skye\skye.jpg" ionError="Skye"> </ion-img></ion-thumbnail>
+                        <h1>Skye</h1>
+                    </ion-item>
+                    <h2>A Assassina do Crepúsculo</h2>
+                    </ion-col>
+                    <ion-col align-self-center>
+                      <ion-item routerLink="/zhin" routerDicetion="zhin">
+                          <ion-thumbnail slot = "start">
+                          <ion-img src="\assets\Paladins\Flanco\Zhin\zhin.jpg"  ionError="Zhin"> </ion-img></ion-thumbnail>
+                          <h1 >Zhin </h1>
+                      </ion-item>
+                      <h2>O tirano</h2>
+                      </ion-col>
+                      
+          
+            
+
+          </ion-row>
+        </ion-grid>
+        <div class="tt">
+        <h4>  Tanque</h4>
+        </div>
+        <ion-grid>
+            <ion-row>
+              <ion-col align-self-center name="Fernando"  id="Fernando">
+                <ion-item routerLink="/Fernando" routerDicetion="Fernando">
+                  <ion-thumbnail slot = "start">
+                    <ion-img src="\assets\Paladins\Tank\Fernando\fernando.jpg" ionError="Fernando"> </ion-img></ion-thumbnail>
+                    <h1>Fernando</h1>
+                </ion-item>
+                <h2>O Auto-Proclamado Cavaleiro</h2>
                 </ion-col>
                 
                 <ion-col align-self-center>
-                  <ion-item  routerLink="/drogoz" routerDicetion="drogoz">
+                  <ion-item  routerLink="/Inara" routerDicetion="Inara">
                       <ion-thumbnail slot = "start">
 
-                      <ion-img src="\assets\Paladins\Dano\Drogoz\drogoz.jpg" ionError="Drogoz"> </ion-img></ion-thumbnail>
+                      <ion-img src="\assets\Paladins\Tank\Inara\inara.png" ionError="Inara"> </ion-img></ion-thumbnail>
                       
-                      <h1>Drogoz</h1>
+                      <h1>Inara</h1>
 
                   </ion-item>
-                  <h2>O Ganancioso</h2>
+                  <h2>A Guardiã de Pedra</h2>
                   </ion-col>
                     
             </ion-row>
           </ion-grid>
             
           <ion-grid>
+
               <ion-row>
                   <ion-col align-self-center>
-                    <ion-item routerLink="/cassie" routerDicetion="cassie" >
+                    <ion-item routerLink="/Makoa" routerDicetion="Makoa" >
                         <ion-thumbnail slot = "start">
-                        <ion-img src="\assets\Paladins\Dano\Cassie\cassie.jpg" ionError="Cassie"> </ion-img></ion-thumbnail>
-                        <h1>Cassie</h1>
+                        <ion-img src="\assets\Paladins\Tank\Makoa\makoa.jpg" ionError="Makoa"> </ion-img></ion-thumbnail>
+                        <h1>Makoa</h1>
                     </ion-item>
-                    <h2>A Filha do Caçador</h2>
+                    <h2>O Ancião</h2>
                     </ion-col>
 
                     <ion-col align-self-center>
-                      <ion-item routerLink="/lian" routerDicetion="lian">
+                      <ion-item routerLink="/Khan" routerDicetion="Khan">
                           <ion-thumbnail slot = "start">
-                          <ion-img src="\assets\Paladins\Dano\Lian\lian.jpg" ionError="Lian"> </ion-img></ion-thumbnail>
-                          <h1>Lian</h1>
+                          <ion-img src="\assets\Paladins\Tank\Khan\khan.jpg" ionError="Khan"> </ion-img></ion-thumbnail>
+                          <h1>Khan</h1>
                       </ion-item>
-                      <h2>Herdeira da Casa Aico</h2>
+                      <h2>Primaz da Casa Aico</h2>
                       </ion-col>
                      
                         
@@ -63,27 +170,29 @@
               </ion-row>
             </ion-grid>
             <div class="tt">
-            <h4> Flanco</h4>
+            <h4> Suporte</h4>
             </div>
             <ion-grid>
 
               <ion-row>
+                <ion-col align-self-center>
+                  <ion-item routerLink="/Fúria" routerDicetion="Fúria">
+                      <ion-thumbnail slot = "start">
+                      <ion-img src="\assets\Paladins\Sup\Fúria\furia.jpg"  ionError="Fúria"> </ion-img></ion-thumbnail>
+                      <h1 >Fúria  </h1>
+                  </ion-item>
+                  <h2>Anjo da Vingança</h2>
+                  </ion-col>
+                  
                       <ion-col align-self-center>
-                        <ion-item routerLink="/Evie" routerDicetion="Evie">
+                        <ion-item routerLink="/IO" routerDicetion="IO">
                             <ion-thumbnail slot = "start">
-                            <ion-img src="\assets\Paladins\Flanco\Evie\evie.jpg" ionError="Evie"> </ion-img></ion-thumbnail>
-                            <h1>Evie</h1>
+                            <ion-img src="\assets\Paladins\Sup\IO\io.jpg" ionError="IO"> </ion-img></ion-thumbnail>
+                            <h1>IO </h1>
                         </ion-item>
-                        <h2>A Bruxa Invernal</h2>
+                        <h2>A Deusa Despedaçada</h2>
                         </ion-col>
-                        <ion-col align-self-center>
-                          <ion-item routerLink="/Maeve" routerDicetion="Maeve">
-                              <ion-thumbnail slot = "start">
-                              <ion-img src="\assets\Paladins\Flanco\Maeve\maeve.jpg"  ionError="Maeve"> </ion-img></ion-thumbnail>
-                              <h1 >Maeve </h1>
-                          </ion-item>
-                          <h2>Lâminas Mortais</h2>
-                          </ion-col>
+                        
                 
               </ion-row>
             </ion-grid>
@@ -91,145 +200,35 @@
             <ion-grid>
 
                 <ion-row>
-                 
+                  <ion-col align-self-center>
+                    <ion-item routerLink="/Jenos" routerDicetion="Jenos">
+                        <ion-thumbnail slot = "start">
+                        <ion-img src="\assets\Paladins\Sup\Jenos\jenos.jpg"  ionError="Jenos"> </ion-img></ion-thumbnail>
+                        <h1 >Jenos  </h1>
+                    </ion-item>
+                    <h2>O Ascendido</h2>
+                    </ion-col>
                     
                         <ion-col align-self-center>
-                          <ion-item routerLink="/Skye" routerDicetion="Skye">
+                          <ion-item routerLink="/Pip" routerDicetion="Pip">
                               <ion-thumbnail slot = "start">
-                              <ion-img src="\assets\Paladins\Flanco\Skye\skye.jpg" ionError="Skye"> </ion-img></ion-thumbnail>
-                              <h1>Skye</h1>
+                              <ion-img src="\assets\Paladins\Sup\Pip\pip.jpg" ionError="Pip"> </ion-img></ion-thumbnail>
+                              <h1>Pip </h1>
                           </ion-item>
-                          <h2>A Assassina do Crepúsculo</h2>
+                          <h2>O Alquimista Trapaceiro</h2>
                           </ion-col>
-                          <ion-col align-self-center>
-                            <ion-item routerLink="/Zhin" routerDicetion="Zhin">
-                                <ion-thumbnail slot = "start">
-                                <ion-img src="\assets\Paladins\Flanco\Zhin\zhin.jpg"  ionError="Zhin"> </ion-img></ion-thumbnail>
-                                <h1 >Zhin </h1>
-                            </ion-item>
-                            <h2>O tirano</h2>
-                            </ion-col>
-                            
-                
-                  
-      
-                </ion-row>
-              </ion-grid>
-              <div class="tt">
-              <h4>  Tanque</h4>
-              </div>
-              <ion-grid>
-                  <ion-row>
-                    <ion-col align-self-center name="Fernando"  id="Fernando">
-                      <ion-item routerLink="/Fernando" routerDicetion="Fernando">
-                        <ion-thumbnail slot = "start">
-                          <ion-img src="\assets\Paladins\Tank\Fernando\fernando.jpg" ionError="Fernando"> </ion-img></ion-thumbnail>
-                          <h1>Fernando</h1>
-                      </ion-item>
-                      <h2>O Auto-Proclamado Cavaleiro</h2>
-                      </ion-col>
-                      
-                      <ion-col align-self-center>
-                        <ion-item  routerLink="/Inara" routerDicetion="Inara">
-                            <ion-thumbnail slot = "start">
-      
-                            <ion-img src="\assets\Paladins\Tank\Inara\inara.png" ionError="Inara"> </ion-img></ion-thumbnail>
-                            
-                            <h1>Inara</h1>
-      
-                        </ion-item>
-                        <h2>A Guardiã de Pedra</h2>
-                        </ion-col>
                           
+                  
+                </ion-row>
+                 <ion-row>
+                  <ion-col align-self-center>
+                    <ion-item routerLink="/Ying" routerDicetion="Ying">
+                        <ion-thumbnail slot = "start">
+                        <ion-img src="\assets\Paladins\Sup\Ying\ying.jpg"  ionError="Ying"> </ion-img></ion-thumbnail>
+                        <h1 >Ying </h1>
+                    </ion-item>
+                    <h2>A FLOR</h2>
+                    </ion-col>
                   </ion-row>
                 </ion-grid>
-                  
-                <ion-grid>
-
-                    <ion-row>
-                        <ion-col align-self-center>
-                          <ion-item routerLink="/Makoa" routerDicetion="Makoa" >
-                              <ion-thumbnail slot = "start">
-                              <ion-img src="\assets\Paladins\Tank\Makoa\makoa.jpg" ionError="Makoa"> </ion-img></ion-thumbnail>
-                              <h1>Makoa</h1>
-                          </ion-item>
-                          <h2>O Ancião</h2>
-                          </ion-col>
-      
-                          <ion-col align-self-center>
-                            <ion-item routerLink="/Khan" routerDicetion="Khan">
-                                <ion-thumbnail slot = "start">
-                                <ion-img src="\assets\Paladins\Tank\Khan\khan.jpg" ionError="Khan"> </ion-img></ion-thumbnail>
-                                <h1>Khan</h1>
-                            </ion-item>
-                            <h2>Primaz da Casa Aico</h2>
-                            </ion-col>
-                           
-                              
-                      
-                    </ion-row>
-                  </ion-grid>
-                  <div class="tt">
-                  <h4> Suporte</h4>
-                  </div>
-                  <ion-grid>
-      
-                    <ion-row>
-                      <ion-col align-self-center>
-                        <ion-item routerLink="/Fúria" routerDicetion="Fúria">
-                            <ion-thumbnail slot = "start">
-                            <ion-img src="\assets\Paladins\Sup\Fúria\furia.jpg"  ionError="Fúria"> </ion-img></ion-thumbnail>
-                            <h1 >Fúria  </h1>
-                        </ion-item>
-                        <h2>Anjo da Vingança</h2>
-                        </ion-col>
-                        
-                            <ion-col align-self-center>
-                              <ion-item routerLink="/IO" routerDicetion="IO">
-                                  <ion-thumbnail slot = "start">
-                                  <ion-img src="\assets\Paladins\Sup\IO\io.jpg" ionError="IO"> </ion-img></ion-thumbnail>
-                                  <h1>IO </h1>
-                              </ion-item>
-                              <h2>A Deusa Despedaçada</h2>
-                              </ion-col>
-                              
-                      
-                    </ion-row>
-                  </ion-grid>
-      
-                  <ion-grid>
-      
-                      <ion-row>
-                        <ion-col align-self-center>
-                          <ion-item routerLink="/Jenos" routerDicetion="Jenos">
-                              <ion-thumbnail slot = "start">
-                              <ion-img src="\assets\Paladins\Sup\Jenos\jenos.jpg"  ionError="Jenos"> </ion-img></ion-thumbnail>
-                              <h1 >Jenos  </h1>
-                          </ion-item>
-                          <h2>O Ascendido</h2>
-                          </ion-col>
-                          
-                              <ion-col align-self-center>
-                                <ion-item routerLink="/Pip" routerDicetion="Pip">
-                                    <ion-thumbnail slot = "start">
-                                    <ion-img src="\assets\Paladins\Sup\Pip\pip.jpg" ionError="Pip"> </ion-img></ion-thumbnail>
-                                    <h1>Pip </h1>
-                                </ion-item>
-                                <h2>O Alquimista Trapaceiro</h2>
-                                </ion-col>
-                                
-                        
-                      </ion-row>
-                       <ion-row>
-                        <ion-col align-self-center>
-                          <ion-item routerLink="/Ying" routerDicetion="Ying">
-                              <ion-thumbnail slot = "start">
-                              <ion-img src="\assets\Paladins\Sup\Ying\ying.jpg"  ionError="Ying"> </ion-img></ion-thumbnail>
-                              <h1 >Ying </h1>
-                          </ion-item>
-                          <h2>A FLOR</h2>
-                          </ion-col>
-                        </ion-row>
-                      </ion-grid>
-    </ion-content>
-    
+</ion-content>
