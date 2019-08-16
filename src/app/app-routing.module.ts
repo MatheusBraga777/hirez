@@ -38,7 +38,7 @@ const routes: Routes = [
   {
     path: 'Cacador',
     loadChildren: './Cacador/Cacador.module#CacadorPageModule'
-  },
+  }, //Paladins
   {path: 'tyra',
   loadChildren: './tyra/tyra.module#tyraPageModule'
 },
@@ -60,6 +60,24 @@ const routes: Routes = [
 { path: 'skye',
   loadChildren: './skye/skye.module#skyePageModule'
 },
+{ path: 'zhin',
+  loadChildren: './zhin/zhin.module#zhinPageModule'
+},
+{ path: 'fernando',
+  loadChildren: './fernando/fernando.module#fernandoPageModule'
+},
+{ path: 'inara',
+loadChildren: './inara/inara.module#inaraPageModule'
+},
+{ path: 'makoa',
+loadChildren: './makoa/makoa.module#makoaPageModule'
+},
+{ path: 'khan',
+loadChildren: './khan/khan.module#khanPageModule'
+},
+
+
+//Fim do Paladins
 {
   path: 'Chronos',
   loadChildren: './Chronos/Chronos.module#ChronosPageModule'

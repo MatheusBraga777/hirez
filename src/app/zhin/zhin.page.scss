@@ -1,0 +1,106 @@
+ion-col{
+    margin: 20px;
+    margin-left: 0px;
+  }
+  
+  
+  ion-item{
+    --inner-border-width: 0 0 0px 0;
+    width: 100;
+    border-radius: 5px;
+  }
+  h1{margin-left: 15px;
+  }
+  h2{margin-left: 10px;
+    text-align: left;
+    font-family: Montserrat,sans-serif;
+    color: white;
+    font-size: 40px;
+    
+  }
+  h3{
+    font-size: 12pt;
+    margin-left: 10px;
+    color:white;
+    margin-right: 10px;
+  }
+
+  h4{
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    color: white;
+    font-size: 20pt;
+
+  }
+  h5{margin-left: 10px;
+    text-align: left;
+    font-family: Montserrat,sans-serif;
+    color: rgb(253, 180, 44);
+    font-weight: 100;
+   
+  }
+
+  h6{margin-left: 12px;
+    text-align: left;
+    font-family: Montserrat,sans-serif;
+    color: #547a8c;
+    font-size: 17pt;
+  }
+  
+  .st{
+    font-style: 20pt;
+  }
+  
+
+
+  
+  img{
+    background-color: #0e222b;
+    width: 110%;
+  }
+  div.item-inner,.item-inner {
+    
+    padding: 0px;
+    
+  }
+  ion-grid{
+    background-color: #081519;
+  }
+  
+ion-slide{
+  background-color: #0e222b;
+  margin-right: 3px;
+  height: 430px;
+  
+}
+ion-card{
+  
+  width: 100%;
+  height: 100%;
+  max-height: 415px;
+  
+
+}
+ion-card-title{
+  margin-top: 15px;
+  font-size: 12pt;
+  color: white;
+  font-family: Montserrat,sans-serif;
+  
+}
+ion-card-content{
+  padding-top: 0px;
+  color: white;
+  
+}
+#lg{
+  width: 20px;
+  background-color:#00000000;
+  color: #547a8c;
+  
+}
+#BD{
+  border: 3px inset rgb(18,37,46);
+ color: white;
+  width: 107%;
+}
