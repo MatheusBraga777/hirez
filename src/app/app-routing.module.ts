@@ -38,44 +38,71 @@ const routes: Routes = [
   {
     path: 'Cacador',
     loadChildren: './Cacador/Cacador.module#CacadorPageModule'
-  }, //Paladins
-  {path: 'tyra',
+ }, //Paladins
+ {
+   path: 'tyra',
   loadChildren: './tyra/tyra.module#tyraPageModule'
 },
-  {path: 'cassie',
+{ 
+  path: 'cassie',
   loadChildren: './cassie/cassie.module#cassiePageModule'
 },
-{ path: 'drogoz',
+{ 
+  path: 'drogoz',
   loadChildren: './drogoz/drogoz.module#drogozPageModule'
 },
-{ path: 'lian',
+{ 
+  path: 'lian',
   loadChildren: './lian/lian.module#lianPageModule'
 },
-{ path: 'evie',
+{
+   path: 'evie',
   loadChildren: './evie/evie.module#eviePageModule'
 },
-{ path: 'maeve',
+{ 
+  path: 'maeve',
   loadChildren: './maeve/maeve.module#maevePageModule'
 },
-{ path: 'skye',
+{ 
+  path: 'skye',
   loadChildren: './skye/skye.module#skyePageModule'
 },
-{ path: 'zhin',
+{ 
+  path: 'zhin',
   loadChildren: './zhin/zhin.module#zhinPageModule'
 },
-{ path: 'fernando',
+{ 
+  path: 'fernando',
   loadChildren: './fernando/fernando.module#fernandoPageModule'
 },
-{ path: 'inara',
+{ 
+  path: 'inara',
 loadChildren: './inara/inara.module#inaraPageModule'
 },
-{ path: 'makoa',
+{
+   path: 'makoa',
 loadChildren: './makoa/makoa.module#makoaPageModule'
 },
-{ path: 'khan',
+{ 
+  path: 'khan',
 loadChildren: './khan/khan.module#khanPageModule'
 },
-
+{ 
+  path: 'fúria',
+loadChildren: './fúria/fúria.module#fúriaPageModule'
+},
+{ 
+  path: 'IO',
+loadChildren: './IO/IO.module#IOPageModule'
+},
+{ 
+  path: 'jenos',
+loadChildren: './jenos/jenos.module#jenosPageModule'
+},
+{ 
+  path: 'ying',
+loadChildren: './ying/ying.module#yingPageModule'
+},
 
 //Fim do Paladins
 {
